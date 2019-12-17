@@ -1,0 +1,22 @@
+﻿R5T.Templates.Solution.VS2019 - A dotnet new solution template that creates a VS2019 solution file.
+
+# To pack:
+
+dotnet pack R5T.Templates.Solution.VS2019.csproj --output "C:\Temp\Templates"
+
+(It's ok that output has some warnings.)
+
+
+# To push to NuGet:
+
+C:\Tools\nuget.exe push R5T.Common.0.1.0.nupkg -Source https://api.nuget.org/v3/index.json
+
+
+# To install the package in dotnet new:
+
+dotnet new --install "R5T.Tempates.Solution.VS2019"
+
+
+# To use the package from dotnet new:
+
+dotnet new sln2019 --output "C:\Temp\Templates\MySolution2019" --name MySolution2019

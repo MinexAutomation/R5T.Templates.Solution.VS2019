@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>R5T.Templates.Solution.VS2019</PackageId>
+    <Title>New Visual Studio 2019 Solution</Title>
+    <Authors>David Coats</Authors>
+    <Description>Create an empty Visual Studio 2019 solution containing no projects.</Description>
+    <PackageTags>dotnet-new;templates;</PackageTags>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\**\*" Exclude="Templates\**\bin\**;Templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

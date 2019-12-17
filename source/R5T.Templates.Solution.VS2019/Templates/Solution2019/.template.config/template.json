@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "David Coats",
+  "classifications": ["Solution"],
+  "name": "VS2019 Solution File",
+  "description": "Create an empty Visual Studio 2019 solution containing no projects.",
+  "identity": "R5T.Templates.VS2019.Solution",
+  "shortName": "sln2019",
+  "sourceName": "Solution1",
+  "primaryOutputs": [ { "path": "Solution1.sln" } ],
+  "defaultName": "Solution1"
+}
