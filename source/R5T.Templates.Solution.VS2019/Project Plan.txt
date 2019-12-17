@@ -9,7 +9,7 @@ dotnet pack R5T.Templates.Solution.VS2019.csproj --output "C:\Temp\Templates"
 
 # To push to NuGet:
 
-C:\Tools\nuget.exe push R5T.Common.0.1.0.nupkg -Source https://api.nuget.org/v3/index.json
+C:\Tools\nuget.exe push R5T.Templates.Solution.VS2019.1.0.0.nupkg -Source https://api.nuget.org/v3/index.json
 
 
 # To install the package in dotnet new:
